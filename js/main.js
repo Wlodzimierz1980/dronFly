@@ -16,9 +16,9 @@ $('.questions__item-title').on('click', function(){
 });
 
 $('#fullpage').fullpage({
-        autoScrolling:true,
-   scrollHorizontally: true,
-  sectionSelector: '.page-section',
+ autoScrolling:true,
+  scrollHorizontally: true,
+  sectionSelector:'.page-section',
   fitToSection: true,
   scrollOverflow: true,
   menu: '#header__nav',
